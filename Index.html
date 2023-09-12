@@ -1,0 +1,40 @@
+
+<head>
+    <link rel="stylesheet" href="./Login.css">
+    <title>LogIn</title>
+</head>
+
+    <body class="loginbody">
+        <div>
+            <form action="">
+            <table>
+            <caption> <h1>LOGIN</h1> </caption>
+            <tr>
+            <td><h2>Login ID:</h2></td>
+            <td><input type="text"  id="email" name="login id" placeholder="Enter login id" required></input</td>
+            </tr>
+            <tr>
+            <td><h2>Password:</h2></td>
+            <td><input type="password"  id="Password" name="password" placeholder="Enter password" required ></input></td>
+            </table><br>
+            <button onclick="math()">LOG IN</button><br><br>
+            <h5>New User-Register here<button>Register</button></h5>
+            </form>
+    </div>
+    <script>
+        function math(){
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("Password").value;
+            if(email=="mathesh@gmail" && password=="mathesh@18"){
+                window.location.assign("HomePage.html");
+                alert("LogIn Successfully")
+            }
+            else{
+                alert("ERROR 'Incorrect Data'")
+                return;
+            }
+        }
+    </script>
+    
+</body>
+</html>
