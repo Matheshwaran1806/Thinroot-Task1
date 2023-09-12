@@ -1,26 +1,26 @@
  const product = [
     {
         id: 0,
-        image: "./imgs/realme 50.jpeg",
+        image: "./realme 50.jpeg",
         title: "REALME 50'inch TV",
         price: 45000,  
     },
     {
         id: 1,
-        image: "./imgs/samsung - 1.jpeg",
+        image: "./samsung - 1.jpeg",
         title: "SAMSUNG 50'inch TV",            
         price: 55000,
     },
     {
         id: 2,
-        image: "./imgs/sony -1.jpeg",
+        image: "./sony -1.jpeg",
         title: "SONY 50'inch TV",
         price: 65000,
 
     },
     {
         id: 3,
-        image: "./imgs/panosonic-1.jpeg",
+        image: "./panosonic-1.jpeg",
         title: "PANOSONIC 50'inch TV",
         price: 35000
     }
